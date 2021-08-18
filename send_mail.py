@@ -1,10 +1,9 @@
 import smtplib
-from email.mime.text import MIMEText
-from test2 import email_, password
+from keys import email_, password # your should import your keys to your mail
 
 
-title = 'something happened to the FBA_robot'
-to_email = 'rasul.islyamgali@gmail.com'
+title = 'some title text'
+to_email = 'some@gmail.com'
 message = 'Test message with Python'
 
 BODY = "\r\n".join((
